@@ -13,6 +13,21 @@
 		D22934212A98E255006267AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D229341F2A98E255006267AA /* Main.storyboard */; };
 		D22934232A98E257006267AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22934222A98E257006267AA /* Assets.xcassets */; };
 		D22934262A98E257006267AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22934242A98E257006267AA /* LaunchScreen.storyboard */; };
+		D22934332A98E4D4006267AA /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22934322A98E4D4006267AA /* AppCoordinator.swift */; };
+		D22934352A98E4EC006267AA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22934342A98E4EC006267AA /* Coordinator.swift */; };
+		D22934382A98E623006267AA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22934372A98E623006267AA /* MainTabBarController.swift */; };
+		D229343A2A98E6BA006267AA /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22934392A98E6BA006267AA /* MainCoordinator.swift */; };
+		D229343D2A9B38E1006267AA /* ContactsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D229343C2A9B38E1006267AA /* ContactsCoordinator.swift */; };
+		D22934402A9B3A07006267AA /* CallsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D229343F2A9B3A07006267AA /* CallsCoordinator.swift */; };
+		D22934432A9B3B29006267AA /* ChatsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22934422A9B3B29006267AA /* ChatsCoordinator.swift */; };
+		D22934462A9B3C4C006267AA /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22934452A9B3C4C006267AA /* SettingsCoordinator.swift */; };
+		D22934492A9B3D84006267AA /* Window+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22934482A9B3D84006267AA /* Window+.swift */; };
+		D229344C2A9B67A9006267AA /* ChatsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D229344B2A9B67A9006267AA /* ChatsFactory.swift */; };
+		D229344E2A9B682C006267AA /* ChatsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D229344D2A9B682C006267AA /* ChatsRouter.swift */; };
+		D22934502A9B6837006267AA /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D229344F2A9B6837006267AA /* ChatsViewController.swift */; };
+		D22934522A9B6846006267AA /* ChatsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22934512A9B6846006267AA /* ChatsViewController.storyboard */; };
+		D22934542A9B68A6006267AA /* ChatsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22934532A9B68A6006267AA /* ChatsPresenter.swift */; };
+		D22934562A9B696D006267AA /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22934552A9B696D006267AA /* UIViewController+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,21 @@
 		D22934222A98E257006267AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D22934252A98E257006267AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D22934272A98E257006267AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22934322A98E4D4006267AA /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D22934342A98E4EC006267AA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		D22934372A98E623006267AA /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		D22934392A98E6BA006267AA /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		D229343C2A9B38E1006267AA /* ContactsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCoordinator.swift; sourceTree = "<group>"; };
+		D229343F2A9B3A07006267AA /* CallsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsCoordinator.swift; sourceTree = "<group>"; };
+		D22934422A9B3B29006267AA /* ChatsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsCoordinator.swift; sourceTree = "<group>"; };
+		D22934452A9B3C4C006267AA /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
+		D22934482A9B3D84006267AA /* Window+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Window+.swift"; sourceTree = "<group>"; };
+		D229344B2A9B67A9006267AA /* ChatsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsFactory.swift; sourceTree = "<group>"; };
+		D229344D2A9B682C006267AA /* ChatsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsRouter.swift; sourceTree = "<group>"; };
+		D229344F2A9B6837006267AA /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		D22934512A9B6846006267AA /* ChatsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatsViewController.storyboard; sourceTree = "<group>"; };
+		D22934532A9B68A6006267AA /* ChatsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsPresenter.swift; sourceTree = "<group>"; };
+		D22934552A9B696D006267AA /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,126 @@
 		D22934182A98E255006267AA /* Telegram-contest */ = {
 			isa = PBXGroup;
 			children = (
-				D22934192A98E255006267AA /* AppDelegate.swift */,
 				D229341B2A98E255006267AA /* SceneDelegate.swift */,
-				D229341D2A98E255006267AA /* ViewController.swift */,
-				D229341F2A98E255006267AA /* Main.storyboard */,
-				D22934222A98E257006267AA /* Assets.xcassets */,
-				D22934242A98E257006267AA /* LaunchScreen.storyboard */,
+				D22934192A98E255006267AA /* AppDelegate.swift */,
 				D22934272A98E257006267AA /* Info.plist */,
+				D229342D2A98E3BB006267AA /* Telegram */,
+				D229342E2A98E410006267AA /* Telegram_iOS */,
+				D22934302A98E44D006267AA /* Telegram_UIKit */,
+				D229342F2A98E426006267AA /* TelegramKit */,
+				D229341D2A98E255006267AA /* ViewController.swift */,
 			);
 			path = "Telegram-contest";
+			sourceTree = "<group>";
+		};
+		D229342D2A98E3BB006267AA /* Telegram */ = {
+			isa = PBXGroup;
+			children = (
+				D229341F2A98E255006267AA /* Main.storyboard */,
+				D22934242A98E257006267AA /* LaunchScreen.storyboard */,
+				D22934222A98E257006267AA /* Assets.xcassets */,
+			);
+			path = Telegram;
+			sourceTree = "<group>";
+		};
+		D229342E2A98E410006267AA /* Telegram_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D22934442A9B3C3F006267AA /* Settings */,
+				D22934412A9B3B14006267AA /* Chats */,
+				D229343E2A9B39EA006267AA /* Calls */,
+				D22934362A98E618006267AA /* Main */,
+				D22934312A98E4C6006267AA /* Coordinator */,
+				D229343B2A9B38D4006267AA /* Contacts */,
+			);
+			path = Telegram_iOS;
+			sourceTree = "<group>";
+		};
+		D229342F2A98E426006267AA /* TelegramKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TelegramKit;
+			sourceTree = "<group>";
+		};
+		D22934302A98E44D006267AA /* Telegram_UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D22934472A9B3D7A006267AA /* Extensions */,
+			);
+			path = Telegram_UIKit;
+			sourceTree = "<group>";
+		};
+		D22934312A98E4C6006267AA /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D22934342A98E4EC006267AA /* Coordinator.swift */,
+				D22934322A98E4D4006267AA /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D22934362A98E618006267AA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D22934372A98E623006267AA /* MainTabBarController.swift */,
+				D22934392A98E6BA006267AA /* MainCoordinator.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D229343B2A9B38D4006267AA /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				D229343C2A9B38E1006267AA /* ContactsCoordinator.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		D229343E2A9B39EA006267AA /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+				D229343F2A9B3A07006267AA /* CallsCoordinator.swift */,
+			);
+			path = Calls;
+			sourceTree = "<group>";
+		};
+		D22934412A9B3B14006267AA /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				D22934422A9B3B29006267AA /* ChatsCoordinator.swift */,
+				D229344B2A9B67A9006267AA /* ChatsFactory.swift */,
+				D229344A2A9B6757006267AA /* Chats */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		D22934442A9B3C3F006267AA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D22934452A9B3C4C006267AA /* SettingsCoordinator.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D22934472A9B3D7A006267AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D22934482A9B3D84006267AA /* Window+.swift */,
+				D22934552A9B696D006267AA /* UIViewController+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D229344A2A9B6757006267AA /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				D22934512A9B6846006267AA /* ChatsViewController.storyboard */,
+				D229344F2A9B6837006267AA /* ChatsViewController.swift */,
+				D22934532A9B68A6006267AA /* ChatsPresenter.swift */,
+				D229344D2A9B682C006267AA /* ChatsRouter.swift */,
+			);
+			path = Chats;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +269,7 @@
 				D22934262A98E257006267AA /* LaunchScreen.storyboard in Resources */,
 				D22934232A98E257006267AA /* Assets.xcassets in Resources */,
 				D22934212A98E255006267AA /* Main.storyboard in Resources */,
+				D22934522A9B6846006267AA /* ChatsViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +280,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D22934432A9B3B29006267AA /* ChatsCoordinator.swift in Sources */,
+				D22934402A9B3A07006267AA /* CallsCoordinator.swift in Sources */,
+				D22934332A98E4D4006267AA /* AppCoordinator.swift in Sources */,
+				D229343A2A98E6BA006267AA /* MainCoordinator.swift in Sources */,
 				D229341E2A98E255006267AA /* ViewController.swift in Sources */,
+				D22934382A98E623006267AA /* MainTabBarController.swift in Sources */,
+				D22934562A9B696D006267AA /* UIViewController+.swift in Sources */,
+				D22934352A98E4EC006267AA /* Coordinator.swift in Sources */,
+				D22934502A9B6837006267AA /* ChatsViewController.swift in Sources */,
+				D22934492A9B3D84006267AA /* Window+.swift in Sources */,
+				D229344E2A9B682C006267AA /* ChatsRouter.swift in Sources */,
+				D22934542A9B68A6006267AA /* ChatsPresenter.swift in Sources */,
 				D229341A2A98E255006267AA /* AppDelegate.swift in Sources */,
+				D22934462A9B3C4C006267AA /* SettingsCoordinator.swift in Sources */,
 				D229341C2A98E255006267AA /* SceneDelegate.swift in Sources */,
+				D229344C2A9B67A9006267AA /* ChatsFactory.swift in Sources */,
+				D229343D2A9B38E1006267AA /* ContactsCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
